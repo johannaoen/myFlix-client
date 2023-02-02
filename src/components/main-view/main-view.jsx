@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { BookCard } from "../book-card/book-card";
-import { BookView } from "../book-view/book-view";
+import { BookCard } from './book-card/book-card';
+import { BookView } from '../book-view/book-view';
 
 export const MainView = () => {
   const [books, setBooks] = useState([
