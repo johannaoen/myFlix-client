@@ -1,43 +1,48 @@
 import { useState } from "react";
-import { BookCard } from './book-card/book-card';
+import { BookCard } from '../book-card/book-card';
 import { BookView } from '../book-view/book-view';
 
 export const MainView = () => {
   const [books, setBooks] = useState([
     {
       id: 1,
-      title: "Eloquent JavaScript",
+      title: "The Lightning Thief",
       image:
-        "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
-      author: "Marijn Haverbeke"
+        "https://m.media-amazon.com/images/I/51Xh1SIrwLL._AC_.jpg",
+      author: "Rick Riordan",
+      description: "Twelve year old Percy Jackson is on th emost dangerous quest of his life. He learns that his true father is Poseidon, the Greek god of the sea."
     },
     {
       id: 2,
-      title: "Mastering JavaScript Functional Programming",
+      title: "Harry Potter 1",
       image:
-        "https://images-na.ssl-images-amazon.com/images/I/51WAikRq37L._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
-      author: "Federico Kereki"
+        "https://m.media-amazon.com/images/I/71-++hbbERL.jpg",
+      author: "JK Rowling",
+      description: "An eleven year old boy who discovers he is the son of famous wizards and will attend Hogwarts School of Witchcraft and Wizardry."
     },
     {
       id: 3,
-      title: "JavaScript: The Good Parts",
+      title: "Harry Potter 2",
       image:
-        "https://images-na.ssl-images-amazon.com/images/I/5131OWtQRaL._SX381_BO1,204,203,200_.jpg",
-      author: "Douglas Crockford"
+        "https://m.media-amazon.com/images/I/61aBiYTtSJL._AC_.jpg",
+      author: "JK Rowling",
+      description: "An eleven year old boy who discovers he is the son of famous wizards and will attend Hogwarts School of Witchcraft and Wizardry."
     },
     {
       id: 4,
-      title: "JavaScript: The Definitive Guide",
+      title: "Life As We Knew It",
       image:
-        "https://images-na.ssl-images-amazon.com/images/I/51HbNW6RzhL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
-      author: "David Flanagan"
+        "https://m.media-amazon.com/images/I/51yjhpz1V-L.jpg",
+      author: "Susan Pfeffer",
+      description: "Sixteen year old MIranda finds her world thrown into chaos when an asteroid hits the moon and shifts it out of orbit, closer to Earth."
     },
     {
       id: 5,
-      title: "The Road to React",
+      title: "Lord of the Flies",
       image:
-        "https://images-na.ssl-images-amazon.com/images/I/41MBLi5a4jL._SX384_BO1,204,203,200_.jpg",
-      author: "Robin Wieruch"
+        "https://render.fineartamerica.com/images/rendered/default/poster/8/10/break/images/artworkimages/medium/3/lord-of-the-flies-by-william-golding-greatest-books-ever-art-print-series-066-design-turnpike.jpg",
+      author: "William Golding",
+      description: "A group of young boys who find themselves alone on a deserted island."
     }
   ]);
 
