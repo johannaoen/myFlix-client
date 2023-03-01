@@ -18,7 +18,7 @@ BookCard.propTypes = {
   book: PropTypes.shape({
     title: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-    author: PropTypes.string
+    author: PropTypes
     }).isRequired,
     onBookClick: PropTypes.func.isRequired 
   };

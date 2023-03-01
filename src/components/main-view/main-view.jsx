@@ -1,3 +1,5 @@
+//parcel src/index.html in terminal to run
+
 import { useState, useEffect } from "react";
 import { BookCard } from '../book-card/book-card';
 import { BookView } from '../book-view/book-view';
